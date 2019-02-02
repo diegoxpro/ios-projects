@@ -55,13 +55,29 @@
 			isa = PBXGroup;
 			children = (
 				F13733E522053B66008050DB /* AppDelegate.swift */,
-				F13733E722053B66008050DB /* ViewController.swift */,
-				F13733E922053B66008050DB /* Main.storyboard */,
+				F13733F822053B84008050DB /* Controller */,
+				F13733F722053B70008050DB /* Storyboard */,
 				F13733EC22053B67008050DB /* Assets.xcassets */,
-				F13733EE22053B67008050DB /* LaunchScreen.storyboard */,
 				F13733F122053B67008050DB /* Info.plist */,
 			);
 			path = "01-iamrich";
+			sourceTree = "<group>";
+		};
+		F13733F722053B70008050DB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F13733E922053B66008050DB /* Main.storyboard */,
+				F13733EE22053B67008050DB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		F13733F822053B84008050DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F13733E722053B66008050DB /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
